@@ -1,0 +1,23 @@
+{
+    "name": "gifary/basecrud",
+    "description": "This base controller for crete simple CRUD.",
+    "authors": [
+        {
+            "name": "Muhammad Gifaary",
+            "email": "muhammadgifary@gmail.com"
+        }
+    ],
+    "keywords": [
+        "framework",
+        "base crud",
+        "crud"
+    ],
+    "require": {
+        "yajra/laravel-datatables-oracle": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "gifary\\basecrud\\": "src/"
+        }
+    }
+}
